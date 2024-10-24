@@ -1,0 +1,28 @@
+3
+! hello
+@ everyone
+# world
+hello world, hello everyone.
+5
+! is
+@ a
+# A
+$ The
+% as
+It is never too late to mend. Keep something for a rainy day. Let bygones be bygones. Man proposes, God disposes. Strike while the iron is hot. Great oaks from little acorns grow. One good turn deserves another. The longest day must have an end. The first blow is half the battle. Penny wise, pound foolish. A contented mind is a perpetual feast. Meat is much, but manner is more. A miss is as good as a mile.
+2
+&& koala
+** is
+koala is so cute
+3
+** and
+%% promising
+## of
+The Internet of Things (IoT) universe will continue to expand with the advent of the sixth generation of mobile networks (6G), which is expected to support applications and services with higher data rates, ultra-reliability, and lower latency compared to the fifth generation of mobile networks (5G). These new demanding 6G applications will introduce heavy load and strict performance requirements on the network. Network Function Virtualization (NFV) is a promising approach to handling these challenging requirements, but it also poses significant Resource Allocation (RA) challenges. Especially since 6G network services will be highly complicated and comparatively short lived, network operators will be compelled to deploy these services in a flexible, on-demand, and agile manner. To address the aforementioned issues, microservice approaches are being investigated, in which the services are decomposed and loosely coupled, resulting in increased deployment flexibility and modularity.
+4
+** With
+#@# for
+@!@ a
+&$% provides
+With the ever-growing demand for low-latency network applications, edge computing emerges as a new paradigm that provides computation and storage resources in close proximity to end-users. Many research efforts have resorted to network function virtualization, wherein network applications are provisioned as service function chains at edge clouds. However, due to the traffic dynamics and limited resource capacity at the network edge, how to efficiently embed service chains with latency optimization and resource efficiency remains as a challenging problem.
+0

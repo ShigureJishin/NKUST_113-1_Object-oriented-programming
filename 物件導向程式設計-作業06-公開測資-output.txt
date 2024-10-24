@@ -1,0 +1,98 @@
+empty
+cat 
+dog 
+fish 
+cat dog 
+cat fish 
+dog fish 
+cat dog fish 
+
+empty
+apple 
+melon 
+apple melon
+ 
+empty
+apple 
+koala 
+orange 
+zebra 
+apple koala 
+apple orange 
+apple zebra 
+koala orange 
+koala zebra 
+orange zebra 
+apple koala orange 
+apple koala zebra 
+apple orange zebra 
+koala orange zebra 
+apple koala orange zebra
+ 
+empty
+Arianna 
+Christensen 
+Clyde 
+Arianna Christensen 
+Arianna Clyde 
+Christensen Clyde 
+Arianna Christensen Clyde 
+
+empty
+Grant 
+Heigl 
+Jimenez 
+Leland 
+Marty 
+Grant Heigl 
+Grant Jimenez 
+Grant Leland 
+Grant Marty 
+Heigl Jimenez 
+Heigl Leland 
+Heigl Marty 
+Jimenez Leland 
+Jimenez Marty 
+Leland Marty 
+Grant Heigl Jimenez 
+Grant Heigl Leland 
+Grant Heigl Marty 
+Grant Jimenez Leland 
+Grant Jimenez Marty 
+Grant Leland Marty 
+Heigl Jimenez Leland 
+Heigl Jimenez Marty 
+Heigl Leland Marty 
+Jimenez Leland Marty 
+Grant Heigl Jimenez Leland 
+Grant Heigl Jimenez Marty 
+Grant Heigl Leland Marty 
+Grant Jimenez Leland Marty 
+Heigl Jimenez Leland Marty 
+Grant Heigl Jimenez Leland Marty 
+
+empty
+兔子 
+斑馬 
+無尾熊 
+兔子 斑馬 
+兔子 無尾熊 
+斑馬 無尾熊 
+兔子 斑馬 無尾熊 
+
+empty
+123wra 
+12421365 
+312312 
+efqwdaqw 
+123wra 12421365 
+123wra 312312 
+123wra efqwdaqw 
+12421365 312312 
+12421365 efqwdaqw 
+312312 efqwdaqw 
+123wra 12421365 312312 
+123wra 12421365 efqwdaqw 
+123wra 312312 efqwdaqw 
+12421365 312312 efqwdaqw 
+123wra 12421365 312312 efqwdaqw 
