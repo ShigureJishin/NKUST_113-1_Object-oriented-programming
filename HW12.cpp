@@ -2,15 +2,10 @@
 此組資料包含一個編碼表以及一行文字，編碼表一開始使用 n 來表示有幾組編碼符號，
 接著輸入每一個符號所代表的單字為何，請使用此編碼表來為接下來的文字資料做單字置換動作
 (即將每個在編碼表中出現的單字使用相對應的符號來取代)。當資料內的 n<= 0時，即代表結束程式。
-
-流程
-
-輸入 n
-class StringData 
-  製作編碼表 用<vector>
 */
 
 #include <iostream>
+#include <sstream>
 #include <vector> 
 #include <cstdlib>
 #include <cstring>
@@ -18,7 +13,7 @@ class StringData
 using namespace std;
 
 struct CodeTable {
-  char symbol;
+  string symbol;
   string code;
 };
 
@@ -42,27 +37,49 @@ class StringData {
       return result;
     }
 
-    void createCodeTable(char symbol, string code) {
+    void createCodeTable(string symbol, string code) {
       codeTable.push_back({symbol, code});
+    
     }
 
     void replace() {
-      string temp = data;
+      result = "";  // 重置結果
+      istringstream iss(data);
+      string word;
 
-      char *ptr = strtok(temp, " ");
-      while (ptr != NULL) {
-        for (int i = 0; i < codeTable.size(); i++) {
-          if (strcmp(codeTable[i].code, *ptr) == 0 ) {
-            result += codeTable[i].symbol;
-          }
+      while (iss >> word) {
+        char punctuation = '\0';
+        bool replaced = false;
+
+        // 檢查單字是否包含標點符號( 判斷最後一個字元是否為標點符號 )
+        if (ispunct( word[word.length() - 1] )) {
+          punctuation = word.back();
+          word.pop_back();  // 移除最後的標點符號
         }
-        
-        ptr = strtok(NULL, " ");
+
+        for (int i = 0; i < codeTable.size(); i++) {
+          if (codeTable[i].code == word) {
+            result += codeTable[i].symbol;
+            replaced = true;
+            break;
+          }     
+        }
+
+        if (!replaced) {
+          result += word;
+        }
+
+        if (punctuation) {
+          result += punctuation;
+        }
+
+        result += " ";
       }
     }
 
     void testCodeTable() {
       for (int i = 0; i < codeTable.size(); i++) {
+        cout << "Size of " << codeTable.size() << endl;
         cout << "No" << i+1 << codeTable[i].symbol << " " << codeTable[i].code << endl;
       }
     }
@@ -89,7 +106,7 @@ int main() {
 
     // 輸入編碼表
     for (int i = 0; i < n; i++) {
-      char symbol;
+      string symbol;
       string code;
       cin >> symbol >> code;
       strData.createCodeTable(symbol, code);
@@ -103,7 +120,11 @@ int main() {
     getline(cin, strSource);
     strData.setData(strSource);
 
-    
+    // 進行替換
+    strData.replace();
+
+    // 輸出結果
+    cout << strData.getResult() << endl;
   }
 
   system("pause");
