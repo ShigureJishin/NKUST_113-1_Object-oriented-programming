@@ -56,4 +56,5 @@
         "streambuf": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
+    "discord.detailsDebugging": "Debugging {file_name}",
 }

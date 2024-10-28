@@ -6,7 +6,8 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <string>
+#include <cstring>
+#include <vector>
 
 using namespace std;
 
@@ -32,16 +33,39 @@ class StringData {
     }
 
     void shiftData() {
+      result = data;
+
       for (int i = 0; i < data.length(); i++) {
-        if (L_R == 1) {
-          //
-          //
-        } else {
-          //
-          //
+        if ( (result [i] < 'A') || (result[i] > 'Z' && result[i] < 'a') || (result[i] > 'z') ) continue;
+        
+        for (int j = 0; j < shiftNum; j++) {
+          
+          if (L_R == 1) {
+            if (result[i] == 'Z') {
+              result[i] = 'a';
+            } 
+            else if (result[i] == 'z') {
+              result[i] = 'A';
+            }
+            else {
+              result[i]++;
+            }
+          }
+          else {
+            if (result[i] == 'a') {
+              result[i] = 'Z';
+            } 
+            else if (result[i] == 'A') {
+              result[i] = 'z';
+            } 
+            else {
+              result[i]--;
+            }
+          }
         }
-      }
+      } 
     }
+    
 
   private:
     string data;
