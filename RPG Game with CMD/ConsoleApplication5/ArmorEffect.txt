@@ -1,0 +1,7 @@
+2
+1 1 1 20 0
+2 2 2 15 15
+
+
+// HelmeID BootsID ChID ATKbouns DedueseBouns
+// 3 3 3 50 50

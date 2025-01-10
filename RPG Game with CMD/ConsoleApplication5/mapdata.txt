@@ -1,0 +1,33 @@
+8
+1 map/map01.txt showmap/map01.txt 3 6 2 4 3 3 7
+2 map/map02.txt showmap/map02.txt 3 2 1 4 4 6 5
+3 map/map03.txt showmap/map03.txt 3 2 7 0 1 6 4
+4 map/map04.txt showmap/map04.txt 3 2 3 0 2 6 6
+5 map/map05.txt showmap/map05.txt 2 2 2 4 6
+6 map/map06.txt showmap/map06.txt 2 2 4 0 5
+7 map/map07.txt showmap/map07.txt 2 7 1 6 3
+8 map/map08.txt showmap/map08.txt 1 0 3
+
+// 城市數
+// 城市ID 路徑 出口數 出口方向 目標城市(出口) 【以此類推】
+
+     1 -- 2 -- 5
+  /  |    |    |
+ /   |    |    |
+7 -- 3 -- 4 -- 6
+     |
+     |
+     8
+
+// 0: north(上)
+// 1: eastnorth
+// 2: east(左)
+// 3: eastsouth
+// 4: south(下)
+// 5: westsouth
+// 6: west(右)
+// 7: westnorth
+
+
+
+

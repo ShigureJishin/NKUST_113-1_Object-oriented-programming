@@ -1,7 +1,0 @@
-﻿  main.cpp
-C:\Users\chung\Desktop\pp\NKUST_113-1_Object-oriented-programming\RPG Game with CMD\main.cpp(116,10): error C2660: 'CAccountManager::login': 函式不使用 0 引數
-      C:\Users\chung\Desktop\pp\NKUST_113-1_Object-oriented-programming\RPG Game with CMD\main.cpp(51,23):
-      請參閱 'CAccountManager::login' 的宣告
-      C:\Users\chung\Desktop\pp\NKUST_113-1_Object-oriented-programming\RPG Game with CMD\main.cpp(116,10):
-      當嘗試符合引數清單 '()' 時
-  

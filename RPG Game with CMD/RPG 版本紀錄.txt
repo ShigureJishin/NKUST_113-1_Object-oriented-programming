@@ -1,0 +1,26 @@
+20241212      add teleport city & Level system
+20241215 1646 add armor system 
+20241215 2057 add skill point & pro.... point
+20241216 1930 add skill system
+20241217 0039 add pet system
+20241217 0134 DEBUG pet attack
+20241219 0045 DEBUG pet menu & Change move command from ID to name
+20241219 2300 add login system
+20241221      add create % delete character
+20241222 1600 add  map % command list & Save Game log (Playerstatus)
+20241223 0240 add Save Game log (Player's skill, pet and bag) & showallmonster
+20241223 2200 add armor effect & Monster refresh
+20241224 0102 add job system (Weapon)
+20241224 0237 add job system (Skill) & delete user
+20241225 0138 DEBUG Weapon, Skill(Job All) & Instant updates Skill menu, pet menu, playerstatus & Monster refresh in place
+20241225 1055 DEBUG Each armor effect(Because store.txt is indicate) & Don't create character when name is duplicated in account. 
+20241226 0132 DEBUG CurrentPet not save & Name can have space
+--------------------------------------------------------------------
+20241226      word finished Ver.1 
+20241226      finshed Word and summit data code.
+---------------------------WORD-------------------------------------
+20241219      create word
+20241219      add 一、Command list (1225 moved to final page)
+20241225      add All systems.
+20241226      finshed Word 
+

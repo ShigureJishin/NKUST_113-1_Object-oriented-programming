@@ -1,0 +1,26 @@
+鐵匠鋪 20
+1 石劍 50 40 weapon
+2 屠龍刀 250 200 weapon
+3 法杖 250 200 weapon
+4 荊棘之盾 250 200 weapon
+5 Admin's_Sword 0 1000 weapon
+
+1 星光布衣 30 10 chestplate
+2 月影輕甲 100 50 chestplate
+3 星辰聖甲 300 150 chestplate
+
+1 星光靴 30 10 boots
+2 月影戰靴 100 50 boots
+3 星辰聖靴 300 150 boots
+
+1 星光頭巾 30 10 helmet
+2 月影頭冠 100 50 helmet
+3 星辰聖盔 300 150 helmet
+
+// 商店名稱 販賣物品種類數
+// ID 內容物品 價格 bonus 商品類型
+// 同上【以此類推】
+
+// weapon +攻擊力
+// food   +體力(HP)
+// chest  +防禦力

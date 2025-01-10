@@ -1,0 +1,11 @@
+3
+store/store01.txt 4
+store/store02.txt 6
+store/store03.txt 8
+
+// 商店數量
+// 商店路徑 地圖位置
+
+
+
+
